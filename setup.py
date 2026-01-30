@@ -20,7 +20,7 @@ setup( #like a metadata to the entire project
  version='0.0.1', 
  author='ibtihel',
 author_email='mosbahiibtihel03@gmail.com',
-packages=find_packages(),
+packages=find_packages(), #Automatically finds all Python folders in  project
 install_requires=get_requirements('requirements.txt')
  
 ) 
